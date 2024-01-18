@@ -77,7 +77,7 @@ function changeMessage() {
     var birthdayMusic = document.getElementById("birthdayMusic");
     birthdayMusic.play();
 
-    updateAgeCounter();
+    
 }
 
-updateAgeCounter();
+
