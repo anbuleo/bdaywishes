@@ -40,21 +40,21 @@ function calculateAge() {
     return age;
 }
 
-function updateAgeCounter() {
-    var ageElement = document.getElementById("age");
-    var minutesElement = document.getElementById("minutes");
-    var secondsElement = document.getElementById("seconds");
+// function updateAgeCounter() {
+//     var ageElement = document.getElementById("age");
+//     var minutesElement = document.getElementById("minutes");
+//     var secondsElement = document.getElementById("seconds");
 
-    var currentDate = new Date();
-    var elapsedTime = currentDate - birthDate;
-    var seconds = Math.floor(elapsedTime / 1000);
-    var minutes = Math.floor(seconds / 60);
-    var remainingSeconds = seconds % 60;
+//     var currentDate = new Date();
+//     var elapsedTime = currentDate - birthDate;
+//     var seconds = Math.floor(elapsedTime / 1000);
+//     var minutes = Math.floor(seconds / 60);
+//     var remainingSeconds = seconds % 60;
 
-    ageElement.textContent = calculateAge();
-    minutesElement.textContent = minutes;
-    secondsElement.textContent = remainingSeconds;
-}
+//     ageElement.textContent = calculateAge();
+//     minutesElement.textContent = minutes;
+//     secondsElement.textContent = remainingSeconds;
+// }
 
 function changeMessage() {
     var messages = [
